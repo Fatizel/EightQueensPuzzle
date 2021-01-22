@@ -8,3 +8,5 @@
 - Postgress
 
 ### Instalación
+
+Se requiere instalar slqArquitect
