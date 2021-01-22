@@ -60,8 +60,7 @@ def dbinsert(db,tName, queen, itera, dx, dy):
 
 
 tName = "queenR"
-value = raw_input("N :")
-queen = int(value)
+queen = int(8)
 current_time = datetime.datetime.now() 
 print(current_time)
 db = dbconect("postgres","mysecretpassword","localhost","5432", tName)
