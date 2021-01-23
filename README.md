@@ -1,15 +1,24 @@
-## EightQueensPuzzle
+### Eight Queens Puzzle
 
+El Juego de las ocho reinas es un modelo de destresa que no permiten que dos reinas compartan la misma fila, columna o diagonal, el objetivo es resolver tableros de n x n que permitan respetar estas reglas. 
+
+### Objetivo
+
+Desarrollar un programa en Python3 que permita encontrar todas las posibles soluciones a este problema con un tablero de n x n
+
+### Modelo de Ejecuci贸n. 
+
+Se utilizaron modelos recursivos para la resoluci贸n del problema de las 8 reinas, se generan 3 funciones principales que permiten verificar la posici贸n de las reinas para encontrat las posibles soluciones al problema. Una vez que se listan las soluciones, las mismas se almacenan en la base de datos de postgres y se monitoriza el tiempo de ejecuci贸n de cada partida. 
 
 ### Requerimientos
 
 - Python v3 o superior.
 - Docker
 - Postgress
-- sqlalchemy
-- pytest
+- Sqlalchemy
+- Pytest
 
-### Instalaci髇
+### Instalaci贸n
 
 Para la compilacion de la imagen: 
 
