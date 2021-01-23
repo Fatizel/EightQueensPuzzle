@@ -12,18 +12,18 @@ Se utilizaron modelos recursivos para la resolución del problema de las 8 reina
 
 Para la resolución del problema se diseñaron 5 funciones. 
 
-  * verification
+  # verification
           En esta funcion se verifica la condición de respetar las filas las columnas y los laterasles
-  * research
-  * inspection
-  * dbconect
+  # research
+  # inspection
+  # dbconect
            Esta funcion esta diseñada para establecer la conexion con la base de datos de postgres los parametros que se requieren son:
               * User Name
               * Password
               * host
               * Port
            Para esta prueba se utilizaron los parametros default que vienen con la instalación base del postgres.
-  * dbinsert
+  # dbinsert
             Permite insertar los valores dentro de la base de datos de postgress, la cual se reinicia con cada una de las iteraciónes de los datos. 
   
 
