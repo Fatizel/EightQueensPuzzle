@@ -8,7 +8,7 @@ Desarrollar un programa en Python3 que permita encontrar todas las posibles solu
 
 ### Modelo de Ejecución. 
 
-Se utilizaron modelos recursivos para la resolución del problema de las 8 reinas, se generan 3 funciones principales para verificar la posición de las reinas y encontrar las posibles soluciones al problema. Una vez que se listan las soluciones, estas se almacenan en la base de datos de postgres y se monitoriza el tiempo de ejecución de cada partida. 
+Se utilizaron llamados de funciones para la resolución del problema de las 8 reinas, se generan 3 funciones principales para verificar la posición de las reinas y encontrar las posibles soluciones al problema. Una vez que se listan las soluciones, estas se almacenan en la base de datos de postgres y se monitoriza el tiempo de ejecución de cada partida. 
 
 Para la resolución del problema se diseñaron 5 funciones. 
 
