@@ -10,11 +10,28 @@ Desarrollar un programa en Python3 que permita encontrar todas las posibles solu
 
 Se utilizaron modelos recursivos para la resolución del problema de las 8 reinas, se generan 3 funciones principales que permiten verificar la posición de las reinas para encontrat las posibles soluciones al problema. Una vez que se listan las soluciones, las mismas se almacenan en la base de datos de postgres y se monitoriza el tiempo de ejecución de cada partida. 
 
+Para la resolución del problema se diseñaron 5 funciones. 
+
+  * verification
+          En esta funcion se verifica la condición de respetar las filas las columnas y los laterasles
+  * research
+  * inspection
+  * dbconect
+           Esta funcion esta diseñada para establecer la conexion con la base de datos de postgres los parametros que se requieren son:
+              * User Name
+              * Password
+              * host
+              * Port
+           Para esta prueba se utilizaron los parametros default que vienen con la instalación base del postgres.
+  * dbinsert
+            Permite insertar los valores dentro de la base de datos de postgress, la cual se reinicia con cada una de las iteraciónes de los datos. 
+  
+
 ### Requerimientos
 
-- Python v3 o superior.
 - Docker
 - Postgress
+- Python v3 o superior
 - Sqlalchemy
 - Pytest
 
